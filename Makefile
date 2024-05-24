@@ -1,3 +1,5 @@
+.PHONY: build docker
+
 docker:
 	docker build -t cryptos:latest ./
 
