@@ -16,6 +16,7 @@ func (h *Handler) LastTradedPrice(w http.ResponseWriter, r *http.Request) {
 			Message: "internal error",
 			Code:    http.StatusInternalServerError,
 		})
+		return
 	}
 
 	api.WriteOk(w, toLastTradedPriceResponse(result))
