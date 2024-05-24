@@ -4,8 +4,8 @@
 App uses Kraken API to show close price of asset pairs (like BTC/UTC)
 
 /api/v1/ltp
-    - pair=BTC/USD
-        - default pair = BTC/USD,BTC/CHF,BTC/EUR
+    - pairs=BTC/USD
+        - default pairs = BTC/USD,BTC/CHF,BTC/EUR
 ```
 
 How to run app
