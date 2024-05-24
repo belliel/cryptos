@@ -12,4 +12,4 @@ WORKDIR /app
 
 COPY --from=builder /builder/build/cryptos .
 
-ENTRYPOINT ["cryptos"]
+RUN ["./cryptos"]
