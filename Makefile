@@ -3,3 +3,6 @@ docker:
 
 build:
 	go build -o build/cryptos cmd/app/main.go
+
+test:
+	go test ./...

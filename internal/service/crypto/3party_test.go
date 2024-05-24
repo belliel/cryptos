@@ -44,7 +44,7 @@ func TestGetLastPricesFromSource(t *testing.T) {
 	"error": [],
 	"result": {
 		"BTC/USD": {
-			"o": ["228", "322"]
+			"c": ["228", "322"]
 		}
 	}
 }
@@ -77,10 +77,10 @@ func TestGetLastPricesFromSource(t *testing.T) {
 	"error": [],
 	"result": {
 		"BTC/USD": {
-			"o": ["228", "322"]
+			"c": ["228", "322"]
 		},
 		"BTC/ETC": {
-			"o": ["1.1", "2"]
+			"c": ["1.1", "2"]
 		}
 	}
 }
