@@ -1,5 +1,13 @@
 # Exercise
 
+```
+App uses Kraken API to show close price of asset pairs (like BTC/UTC)
+
+/api/v1/ltp
+    - pair=BTC/USD
+        - default pair = BTC/USD,BTC/CHF,BTC/EUR
+```
+
 How to run app
 ```
 cryptos [OPTIONS]
@@ -23,4 +31,9 @@ make build
 How to docker bundle:
 ```sh
 make docker
+```
+
+How to run tests
+```sh
+make test
 ```
